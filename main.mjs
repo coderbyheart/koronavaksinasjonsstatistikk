@@ -50,6 +50,7 @@ const daysToHerdimmunity = Math.ceil(
   (population * herdImmunity - vaccinatedWithDose1) / dose1WeekAverage
 );
 
+console.log("\n\n");
 console.log(`Population: ${population}  `);
 console.log(`Herd immunity: ${herdImmunity * 100}%  \n`);
 console.log(`## ${date}\n`);
@@ -66,12 +67,12 @@ console.log(
     Date.now() + daysToHerdimmunity * 24 * 60 * 60 * 1000
   )
     .toISOString()
-    .substr(
-      0,
-      10
-    )} (${daysToHerdimmunity} * ${dose1WeekAverage} + ${vaccinatedWithDose1} = ${
+    .substr(0, 10)}  `
+);
+console.log(
+  `${daysToHerdimmunity} * ${dose1WeekAverage} + ${vaccinatedWithDose1} = ${
     daysToHerdimmunity * dose1WeekAverage + vaccinatedWithDose1
-  } >= ${population} * ${herdImmunity})\n`
+  } >= ${population} * ${herdImmunity}\n`
 );
 console.log("### Dose 2\n");
 console.log(
