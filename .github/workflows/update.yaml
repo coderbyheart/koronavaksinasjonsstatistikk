@@ -1,0 +1,35 @@
+name: Update README
+
+on:
+  push:
+  schedule:
+    - cron: "0 0 * * *"
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14.x"
+
+      - name: Update README.md
+        run: |
+          cat template.md > README.md
+          node main.mjs >> README.md
+
+      - name: Commit
+        run: |
+          echo "machine github.com login accesskey password ${GITHUB_TOKEN}" > ~/.netrc
+          git config --global user.email "actions@example.com"
+          git config --global user.name "GitHub Actions"
+          git add README.md
+          git add *.json
+          git commit -m "docs: Update README.md"
+          git push
