@@ -23,8 +23,8 @@ Herd immunity reached in 594 days: 2022-10-12
 
 ### Dose 2
 
-Vaccinated: 1.94%  
+Vaccinated: 104343 (1.94%)  
 7 day average: 4257
 
 ---
-Last update: 2021-02-25T10:02:43.675Z
+Last update: 2021-02-25T10:13:40.449Z
