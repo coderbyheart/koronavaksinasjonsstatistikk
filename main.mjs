@@ -76,7 +76,10 @@ console.log(
 );
 console.log("### Dose 2\n");
 console.log(
-  `Vaccinated: ${((vaccinatedWithDose2 / population) * 100).toFixed(2)}%  `
+  `Vaccinated: ${vaccinatedWithDose2} (${(
+    (vaccinatedWithDose2 / population) *
+    100
+  ).toFixed(2)}%)  `
 );
 console.log(`7 day average: ${Math.floor(vaccinatedDose2 / 7)}\n`);
 console.log("---");
