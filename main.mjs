@@ -1,38 +1,11 @@
 import * as fs from "fs";
-import * as https from "https";
 import * as path from "path";
 
 const population = 5_391_369; // https://www.ssb.no/befolkning/faktaside/befolkningen
 const herdImmunity = 0.95; // It's not known: https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19
-const day = new Date().toISOString().substr(0, 10);
-const f = path.resolve(process.cwd(), `${day}.json`);
-const stats = await (async () => {
-  try {
-    return JSON.parse(fs.readFileSync(f, "utf-8"));
-  } catch {
-    return new Promise((resolve, reject) => {
-      let rawData = "";
-      https
-        .get("https://www.fhi.no/api/chartdata/api/99119", (res) => {
-          res.on("data", (chunk) => {
-            rawData += chunk;
-          });
-          res.on("end", () => {
-            try {
-              const stats = JSON.parse(rawData);
-              fs.writeFileSync(f, JSON.stringify(stats, null, 2), "utf-8");
-              return resolve(stats);
-            } catch (e) {
-              return reject(e);
-            }
-          });
-        })
-        .on("error", (e) => {
-          return reject(e);
-        });
-    });
-  }
-})();
+const stats = JSON.parse(
+  fs.readFileSync(path.resolve(process.cwd(), `99119.json`), "utf-8")
+);
 
 const [date, vaccinatedWithDose1, vaccinatedWithDose2] = stats[
   stats.length - 1

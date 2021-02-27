@@ -21,6 +21,7 @@ jobs:
 
       - name: Update README.md
         run: |
+          curl https://www.fhi.no/api/chartdata/api/99119 | jq > 99119.json
           cat template.md > README.md
           node main.mjs >> README.md
 
