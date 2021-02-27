@@ -55,5 +55,3 @@ console.log(
   ).toFixed(2)}%)  `
 );
 console.log(`7 day average: ${Math.floor(vaccinatedDose2 / 7)}\n`);
-console.log("---");
-console.log("Last update:", new Date().toISOString());
