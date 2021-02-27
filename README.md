@@ -26,5 +26,3 @@ Herd immunity reached in 907 days: 2023-08-23
 Vaccinated: 149622 (2.78%)  
 7 day average: 7785
 
----
-Last update: 2021-02-27T09:07:53.851Z
