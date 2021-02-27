@@ -27,4 +27,4 @@ Vaccinated: 149622 (2.78%)
 7 day average: 7785
 
 ---
-Last update: 2021-02-27T00:08:34.726Z
+Last update: 2021-02-27T09:07:53.851Z
