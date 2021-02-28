@@ -18,7 +18,7 @@ Herd immunity: 95%
 Vaccinated: 318722 (5.91%)  
 7 day average: 5297
 
-Herd immunity reached in 907 days: 2023-08-23  
+Herd immunity reached in 907 days: 2023-08-24  
 907 * 5297 + 318722 = 5123101 >= 5391369 * 0.95
 
 ### Dose 2
