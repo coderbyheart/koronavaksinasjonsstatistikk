@@ -11,18 +11,18 @@ Sources:
 Population: 5391369  
 Herd immunity: 95%  
 
-## 2021-03-01
+## 2021-03-02
 
 ### Dose 1
 
-Vaccinated: 334863 (6.21%)  
-7 day average: 5646
+Vaccinated: 344669 (6.39%)  
+7 day average: 6234
 
-Herd immunity reached in 848 days: 2023-06-29  
-848 * 5646 + 334863 = 5122671 >= 5391369 * 0.95
+Herd immunity reached in 767 days: 2023-04-10  
+767 * 6234 + 344669 = 5126147 >= 5391369 * 0.95
 
 ### Dose 2
 
-Vaccinated: 162511 (3.01%)  
-7 day average: 8828
+Vaccinated: 166322 (3.08%)  
+7 day average: 8637
 
