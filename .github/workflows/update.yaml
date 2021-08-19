@@ -33,4 +33,5 @@ jobs:
           git add README.md
           git add *.json
           git commit -m "docs: Update README.md"
+          git pull --ff-only
           git push
