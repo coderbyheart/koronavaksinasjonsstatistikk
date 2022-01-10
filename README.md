@@ -20,7 +20,7 @@ Herd immunity: 80%
 Vaccinated: 4 290 198 (79.58%)  
 7 day average: 837
 
-Herd immunity reached in 28 days on 6.2.2022  
+Herd immunity reached in 28 days on 7.2.2022  
 28 * 837 + 4 290 198 = 4 313 634 >= 5 391 369 * 0.8 = 4 313 096
 
 ### Dose 2
