@@ -20,7 +20,7 @@ Herd immunity: 80%
 Vaccinated: 4 338 957 (80.48%)  
 7 day average: 126
 
-Herd immunity reached in -205 days on 11.11.2021  
+Herd immunity reached in -205 days on 12.11.2021  
 -205 * 126 + 4 338 957 = 4 313 127 >= 5 391 369 * 0.8 = 4 313 096
 
 ### Dose 2
