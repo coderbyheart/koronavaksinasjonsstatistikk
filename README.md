@@ -13,18 +13,18 @@ Population: 5 391 369
 Children: 1 118 608  
 Herd immunity: 80%  
 
-## 2022-09-24
+## 2022-09-26
 
 ### Dose 1
 
-Vaccinated: 4 345 433 (80.60%)  
-7 day average: 28
+Vaccinated: 4 345 474 (80.60%)  
+7 day average: 29
 
-Herd immunity reached in -1154 days on 31.7.2019  
--1154 * 28 + 4 345 433 = 4 313 121 >= 5 391 369 * 0.8 = 4 313 096
+Herd immunity reached in -1116 days on 8.9.2019  
+-1116 * 29 + 4 345 474 = 4 313 110 >= 5 391 369 * 0.8 = 4 313 096
 
 ### Dose 2
 
-Vaccinated: 4 052 818 (75.17%)  
-7 day average: 43
+Vaccinated: 4 052 856 (75.17%)  
+7 day average: 42
 
